@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Railway Reservation System - RRS</title>
+	 <link href='RRS_Style.css' rel='stylesheet'>
+</head>
+<body>
+     <header>
+	    <div class="main">
+		   <ul>
+		      <li class="active"><a href="RRS_Home.php">Home</a></li>
+			  <li><a href="RRS_AboutUs.php">About Us</a></li>
+			  <li><a href="#">Book Ticket</a></li>
+			  <li><a href="RRS_custviewAnnouncement.php">Announcement</a></li>
+			  <li><a href="RRS_ContactUs.php">Contact Us</a></li>
+			  <li><a href="login.php">Logout</a></li>
+		   <ul>
+		</div>
+		<div class="title">
+		   <h1>Eistern Company Creation</h1>
+		</div>
+		
+		<div class="button">
+		   <a href="https://www.youtube.com/watch?v=gItS2GYn39Q" class="btn">Check It Out About RRS</a>
+		   <a href="http://www.ktmb.com.my/ETS.html" class="btn">LEARN MORE</a>
+		   		
+	 </header>
+</body>
+</html>

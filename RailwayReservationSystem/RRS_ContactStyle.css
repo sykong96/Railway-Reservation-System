@@ -1,0 +1,104 @@
+body{	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(ktm.jpg);
+	background-size:cover;
+	background-position: center;
+	font-family: Century Gothic;
+}
+ul{
+	float: center;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.contact-title{
+	
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+.contact-title h1 {
+    font-size: 50px;
+    line-height: 10px;
+    	
+}
+
+.contact-title h2{
+	font-size: 16px;
+	
+}
+
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+
+form .submit{
+	background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size:20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;	
+}
+
+form.submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 40px;
+}
+
+p{
+	color: white;
+	font-size: 20px;
+}
